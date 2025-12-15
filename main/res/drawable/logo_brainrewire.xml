@@ -1,0 +1,98 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Outer glow circle -->
+    <path
+        android:fillColor="#206C63FF"
+        android:pathData="M60,60m-58,0a58,58 0,1 1,116 0a58,58 0,1 1,-116 0"/>
+
+    <!-- Main circle background -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M60,60m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"/>
+
+    <!-- Inner lighter circle -->
+    <path
+        android:fillColor="#7B73FF"
+        android:pathData="M60,60m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0"/>
+
+    <!-- Brain Base Shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,25c-18,0 -32,14 -32,32c0,10 4,19 11,25c3,3 5,6 5,10v6h32v-6c0,-4 2,-7 5,-10c7,-6 11,-15 11,-25c0,-18 -14,-32 -32,-32z"/>
+
+    <!-- Brain Division -->
+    <path
+        android:pathData="M60,28v66"
+        android:strokeWidth="2"
+        android:strokeColor="#6C63FF"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Left Brain Folds -->
+    <path
+        android:pathData="M35,45c7,5 14,5 21,0"
+        android:strokeWidth="3"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M33,58c8,5 16,5 24,0"
+        android:strokeWidth="3"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M38,71c6,4 12,4 18,0"
+        android:strokeWidth="3"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Right Brain Folds -->
+    <path
+        android:pathData="M64,45c7,5 14,5 21,0"
+        android:strokeWidth="3"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M63,58c8,5 16,5 24,0"
+        android:strokeWidth="3"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M64,71c6,4 12,4 18,0"
+        android:strokeWidth="3"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Shield Emblem -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M60,62l-16,-8v-14c0,-8 6,-15 16,-17c10,2 16,9 16,17v14l-16,8z"/>
+
+    <!-- Shield Inner -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M60,58l-12,-6v-10c0,-6 4,-11 12,-13c8,2 12,7 12,13v10l-12,6z"/>
+
+    <!-- Shield Checkmark -->
+    <path
+        android:pathData="M53,44l5,5l10,-10"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"/>
+
+</vector>
+

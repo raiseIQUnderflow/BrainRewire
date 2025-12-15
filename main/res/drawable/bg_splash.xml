@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="#1A1A2E"
+                android:centerColor="#16213E"
+                android:endColor="#0F3460"/>
+        </shape>
+    </item>
+
+    <!-- Top-right decorative circle -->
+    <item
+        android:top="-100dp"
+        android:right="-50dp">
+        <shape android:shape="oval">
+            <size android:width="200dp" android:height="200dp"/>
+            <solid android:color="#206C63FF"/>
+        </shape>
+    </item>
+
+    <!-- Bottom-left decorative circle -->
+    <item
+        android:bottom="-80dp"
+        android:left="-60dp">
+        <shape android:shape="oval">
+            <size android:width="180dp" android:height="180dp"/>
+            <solid android:color="#15E94560"/>
+        </shape>
+    </item>
+
+    <!-- Center glow -->
+    <item
+        android:gravity="center">
+        <shape android:shape="oval">
+            <size android:width="300dp" android:height="300dp"/>
+            <gradient
+                android:type="radial"
+                android:gradientRadius="150dp"
+                android:startColor="#106C63FF"
+                android:endColor="#00000000"/>
+        </shape>
+    </item>
+
+</layer-list>
+

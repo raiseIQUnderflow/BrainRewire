@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BrainRewire</string>
+
+    <!-- VPN Service -->
+    <string name="vpn_service_label">BrainRewire Content Filter</string>
+    <string name="vpn_description">BrainRewire filters explicit content using DNS. All filtering happens locally on your device.</string>
+
+    <!-- Privacy -->
+    <string name="privacy_notice">All content filtering happens locally on your device. No data is collected or transmitted.</string>
+</resources>

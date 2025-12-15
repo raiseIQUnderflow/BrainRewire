@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Only allow HTTPS connections -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Allow connections to blocklist sources -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">raw.githubusercontent.com</domain>
+        <domain includeSubdomains="true">blocklistproject.github.io</domain>
+        <domain includeSubdomains="true">nsfw.oisd.nl</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
+
