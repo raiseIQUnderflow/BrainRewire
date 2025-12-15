@@ -17,11 +17,9 @@
 - 🧼 **Content Filtering**  
   Block explicit websites and distracting apps using smart rules and local control.
 
-- 🔒 **Uninstall Protection**  
-  Prevent unauthorized uninstallation through Device Admin access and Accessibility protection.
 
-- 🛡️ **Website & App Blocking**  
-  Uses `VpnService` and `AccessibilityService` to monitor and block known adult apps and websites.
+- 🛡️ **Website Blocking**  
+  Uses `VpnService` and `AccessibilityService` to monitor and block known explicit websites.
 
 - ⚙️ **Background Service**  
   Lightweight and persistent, runs silently in the background without draining battery.
@@ -67,14 +65,7 @@ Digital habits shape the mind.
 
 > “What you feed your brain rewires your life.”
 
----
-
-## 💡 Roadmap
-
-- [ ] Custom blocklists for domains & apps  
-- [ ] AI-based image/text detection (TFLite integration)  
-- [ ] Time-based scheduling of access  
-- [ ] Cloud sync & config backup  
+--- 
 
 ---
 
