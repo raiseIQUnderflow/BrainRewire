@@ -46,9 +46,6 @@
 
 | Permission | Purpose |
 |-----------|---------|
-| Accessibility | Block apps & detect foreground apps |
-| Usage Stats | Monitor app usage |
-| Device Admin | Prevent uninstallation |
 | VPN | Filter web traffic |
 
 > 🔐 *We do NOT collect or transmit any personal data. All filtering happens locally on your device.*
@@ -66,8 +63,6 @@ Digital habits shape the mind.
 > “What you feed your brain rewires your life.”
 
 --- 
-
----
 
 ## 🤝 Contributing
 
