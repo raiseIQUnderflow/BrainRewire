@@ -52,18 +52,6 @@
 
 ---
 
-## 🧠 Philosophy
-
-Digital habits shape the mind.  
-**BrainRewire** is built for:
-- Individuals on **NoFap**, **dopamine detox**, or **minimalism** journeys.
-- Parents who want to protect kids from adult content.
-- Developers and digital wellness advocates.
-
-> “What you feed your brain rewires your life.”
-
---- 
-
 ## 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
