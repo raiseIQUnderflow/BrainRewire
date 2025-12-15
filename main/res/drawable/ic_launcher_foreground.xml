@@ -1,0 +1,77 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Brain Base Shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,24c-16,0 -28,12 -28,28c0,9 4,17 10,22c3,2 5,5 5,9v5h26v-5c0,-4 2,-7 5,-9c6,-5 10,-13 10,-22c0,-16 -12,-28 -28,-28z"/>
+
+    <!-- Brain Division -->
+    <path
+        android:pathData="M54,26v56"
+        android:strokeWidth="1.5"
+        android:strokeColor="#6C63FF"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Left Brain Folds -->
+    <path
+        android:pathData="M32,40c6,4 12,4 18,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M30,52c7,4 14,4 21,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M34,64c5,3 10,3 15,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Right Brain Folds -->
+    <path
+        android:pathData="M58,40c6,4 12,4 18,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M57,52c7,4 14,4 21,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M59,64c5,3 10,3 15,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#6C63FF"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Shield Emblem -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M54,55l-14,-7v-12c0,-7 5,-13 14,-15c9,2 14,8 14,15v12l-14,7z"/>
+
+    <!-- Shield Checkmark -->
+    <path
+        android:pathData="M48,40l4,4l8,-8"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"/>
+
+</vector>
